@@ -30,7 +30,7 @@ Aprender como criar e utilizar componentes, passar **props**, manipular **estado
 - Exibição de imagens a partir de URL
 
 **Exemplo do projeto:**
-```jsx
+
 <Titulo cor="red" nome="Nataly Cristina" paragrafo={true} />
 <Titulo cor="purple" />
 
