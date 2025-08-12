@@ -32,6 +32,7 @@ Aprender como criar e utilizar componentes, passar **props**, manipular **estado
 **Exemplo do projeto:**
 
 <Titulo cor="red" nome="Nataly Cristina" paragrafo={true} />
+
 <Titulo cor="purple" />
 
 
@@ -51,7 +52,9 @@ Aprender a criar múltiplas páginas em uma aplicação React usando React Route
 
 **Exemplo das rotas:**
 <Route path="/" element={<Home />} />
+
 <Route path="/Sobre" element={<Sobre />} />
+
 <Route path="/Contato" element={<Contato />} />
 
 ## 🛠 Tecnologias Utilizadas
@@ -69,7 +72,7 @@ Aprender a criar múltiplas páginas em uma aplicação React usando React Route
 ### 1️⃣ Pré-requisitos
 Certifique-se de ter o Node.js e npm instalados:
 
-```bash
+
 node -v
 # v22.13.1
 
@@ -78,20 +81,20 @@ npm -v
 
 ### 2️⃣ Clonar o Repositório
 
-```bash
+
 git clone https://github.com/natycristina/ReactJs-ProjetoSimples-iniciante-.git
 cd ReactJs-ProjetoSimples-iniciante-
 
 ### 3️⃣ Rodar o Projeto 1
 
-```bash
+
 cd projeto1
 npm install
 npm run dev
 
 ### 4️⃣ Rodar o Projeto 2
 
-```bash
+
 cd ../projeto2
 npm install
 npm install react-router-dom
