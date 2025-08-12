@@ -83,21 +83,28 @@ npm -v
 
 
 git clone https://github.com/natycristina/ReactJs-ProjetoSimples-iniciante-.git
+
 cd ReactJs-ProjetoSimples-iniciante-
 
 ### 3️⃣ Rodar o Projeto 1
 
 
 cd projeto1
+
 npm install
+
 npm run dev
 
 ### 4️⃣ Rodar o Projeto 2
 
 
 cd ../projeto2
+
 npm install
+
 npm install react-router-dom
+
 npm run dev
+
 nginx
 
